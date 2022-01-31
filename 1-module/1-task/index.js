@@ -1,3 +1,8 @@
 function factorial(n) {
-  // ваш код...
+    
+         var res = 1;    
+         while(n) res *= n--;    
+         return res;      
+      
 }
+alert( factorial(0) );  
