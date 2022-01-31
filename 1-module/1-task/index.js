@@ -5,4 +5,3 @@ function factorial(n) {
          return res;      
       
 }
-alert( factorial(0) );  
