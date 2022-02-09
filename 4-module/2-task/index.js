@@ -1,3 +1,4 @@
+/*
 function makeDiagonalRed(table) {
   
     let rowsLength = table.rows.length;
@@ -8,13 +9,13 @@ function makeDiagonalRed(table) {
       row.cells[i].style.backgroundColor = 'red';
     }
   }
-
+  */
 
 
 // Моё решение.
-/*
+
 function makeDiagonalRed(table) {
-  let trows = document.querySelector("table");
+  let trows = table;
 
   for (let i = 0; i < trows.rows.length; i++) {
     let row = trows.rows[i];
@@ -22,8 +23,7 @@ function makeDiagonalRed(table) {
   }
  
   }
-  */
-// Не понимаю почему не проходят тесты, по сути, всё тоже самое что 
-// и в решении преподавателя, но ни один тест не прошел
+  
+// посмотрел решение т.к. тестам не нравился вариант получения таблицы через Селектор, сейчас понял что есть атрибут функции, который уже берет таблицу.
 
  
