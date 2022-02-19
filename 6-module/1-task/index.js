@@ -14,7 +14,11 @@
  */
 export default class UserTable {
   constructor(rows) {
+<<<<<<< HEAD
   this.elem = document.createElement('table');
+=======
+    this.elem = document.createElement('table');
+>>>>>>> f5cdc7048b01f4a2f1abd8b8c97bb5312a91b04b
 
     this.elem.innerHTML = `
       <thead>
@@ -60,7 +64,10 @@ export default class UserTable {
     tr.remove();
   }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> f5cdc7048b01f4a2f1abd8b8c97bb5312a91b04b
 }
   
  
