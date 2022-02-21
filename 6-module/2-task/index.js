@@ -1,5 +1,5 @@
-import createElement from '../../assets/lib/create-element.js';
-export default class ProductCard {
+
+ export default class ProductCard {
   constructor(product) {
     let toFixeds = product.price.toFixed(2); // указание 00 после цены
     let prodid = product.id; // получение product.id из объекта в html
@@ -35,4 +35,4 @@ this.elem.addEventListener('product-add', (event) => {
 // вызов самого кастомного события
   }
  
-}
+} 

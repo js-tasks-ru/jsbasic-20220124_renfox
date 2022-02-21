@@ -5,6 +5,7 @@ function initCarousel() {
   let listSlide = document.querySelectorAll('.carousel__slide');
   // получаем 1 слайд
   let slide = document.querySelector('.carousel__inner');
+  console.log(slide.offsetWidth);
   // указываем видимое количество слайдов ( активных)
   let count = 0;
   // Положение прокрутки
